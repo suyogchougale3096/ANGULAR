@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-
+// Module imported
+import { add } from './mathFunctions';
 
 @Component({
   selector: 'app-root',
@@ -31,6 +32,8 @@ export class AppComponent {
   }
 
   displayInfo(): string {
+    // Add
+    console.log(add(5, 3));
     return this.course_id + ' ' + this.cource_name;
   }
   // --------------------------------------------------------
