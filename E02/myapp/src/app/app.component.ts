@@ -20,4 +20,8 @@ export class AppComponent {
   display(): void {
     console.log('Hello World!');
   }
+
+  getText(val: string) {
+    console.warn(val);
+  }
 }

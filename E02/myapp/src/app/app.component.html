@@ -5,3 +5,7 @@
 <div>Url of the image is : {{ displayUrl() }}</div>
 
 <div><button (click)="display()">Click me</button></div>
+
+<div>
+  <input type="text" #box (keyup)="getText(box.value)" name="user" id="user" />
+</div>
