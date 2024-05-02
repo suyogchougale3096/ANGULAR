@@ -17,8 +17,6 @@ export class AppComponent {
     return this.imageUrl;
   }
 
-  text: string = '';
-
   display(): void {
     console.log('Hello World!');
   }
